@@ -1,0 +1,23 @@
+#cart_banner{
+    margin-top: 50px;
+    margin-left: -20px;
+}
+
+#cart_heading{
+font-family: 'Bona Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+/* identical to box height, or 100% */
+letter-spacing: 0.02em;
+color: #4B330B;
+margin-right: 20px;
+}
+
+.total_rupees{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+/* -----------------------------------checkout-------------------------------- */
+

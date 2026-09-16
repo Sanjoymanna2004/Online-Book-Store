@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Checkout Button */
+#checkout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px; 
+    margin-left: -5px;
+box-sizing: border-box;
+border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 10px;
+color: #000000;
+}
+
+#checkout-btn:hover{
+color: white;
+background-color: #CC9600;
+border: none;
+box-shadow: none;
+}
+
+/* Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal Content (the form) */
+.modal-content {
+    background-color: black;
+    margin: 10% auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Close Button */
+.close-btn {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #CC9600;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+/* Form inputs */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #CC9600;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 295px;
+}
+
+.close_Btn{
+    width: 295px;
+    color: #CC9600;
+    background-color: transparent;
+    border: 1px solid #CC9600;
+    border-radius: 20px;
+}
+/* .close_Btn:hover{
+    background-color: #CC9600;
+    color: white;
+} */
+
+#contact_us{
+    color: #fa0303;
+}
+/* Two input fields in one row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.col {
+    width: 48%; /* Each input takes about half of the container width */
+}
+
+.form-container input[type=text],
+.form-container input[type=email],
+.form-container input[type=tel],
+.form-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+} */
+
+.cancel {
+    background-color: red;
+}
+
+#center{
+    text-align: center;
+    color: #CC9600;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between; /* Ensures buttons are aligned side by side */
+    margin-top: 20px;
+}
+/* Button styles */
+.button-row button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

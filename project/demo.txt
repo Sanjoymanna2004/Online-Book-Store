@@ -1,0 +1,9 @@
+/* Rectangle 30 */
+
+position: absolute;
+width: 145px;
+height: 210px;
+left: 99px;
+top: 437px;
+
+background: url(M9DqfWZ - Imgur.png);

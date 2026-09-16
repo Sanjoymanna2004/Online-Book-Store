@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bona Nova", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  background-color: #fff;
+}
+.container-fill {
+  background-color: #000000;
+  display: flex;
+}
+/* -------------------------------image section------------------------------- */
+.img-sec {
+  width: 725px;
+  height: 832px;
+  opacity: 0;
+  animation: slideRight 2s ease forwards;
+}
+.aniBottom{
+  opacity: 0;
+  animation: slideBottom 2s ease forwards; 
+}
+/* ---------------------------log in section----------------------------- */
+.login-sec {
+  margin-top: 130px;
+  margin-left: 50px;
+  width: 600px;
+  height: 400px;
+  opacity: 0;
+  animation: slideLeft 2s ease forwards;
+}
+.aniTop{
+  opacity: 0;
+  animation: slideTop 2s ease forwards;
+}
+.login-sec h1 {
+  color: #cc9600;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.login-sec #discover {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Bona Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.login-sec h2 {
+  color: #CA891D;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+/* -------------------------------input----------------------------- */
+.inpt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#username{
+width: 527px;
+height: 43px;
+background: #D6CE80;
+opacity: 0.9;
+border-radius: 10px;
+font-size: 15px;
+padding-left: 15px;
+border: none;
+margin-bottom: 10px;
+color: #CA891D;
+  }
+
+#email{
+width: 527px;
+height: 43px;
+background: #D6CE80;
+opacity: 0.9;
+border-radius: 10px;
+font-size: 15px;
+padding-left: 15px;
+border: none;
+margin-bottom: 10px;
+color: #CA891D;
+}
+
+#password{
+    width: 527px;
+    height: 43px;
+    background: #D6CE80;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    border: none;
+    margin-bottom: 10px;
+    color: #CA891D;
+
+}
+.forgot{
+    width: 526px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.forgot p{
+    color: #D6CE80;
+   cursor: pointer;
+}
+/* ------------------------------------create account--------------------------- */
+.create{
+display: flex;
+width: 600px;
+height: 26px;
+font-family: 'Bona Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 26px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+.create #acc{
+  margin-left: 200px;
+  cursor: pointer;
+}
+#acc2{
+  margin-left: 300px;
+  cursor: pointer;
+}
+#acc2 a{
+  text-decoration: none;
+  color: #F29C0D;
+}
+#acc a{
+  text-decoration: none;
+  color: #F29C0D;
+}
+hr{
+position: absolute;
+width: 600px;
+height: 0px;
+border: 1px solid #A59F9F;
+}
+/* --------------------------button---------------------------------- */
+.btn{
+  display: flex;
+  margin-top: 20px;
+}
+.btn2{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.btn p{
+  font-size: 18px;
+  margin-left: 18px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+#underline:hover{
+  text-decoration: underline;
+}
+/* ------------------------log-in button----------------------------- */
+.san{
+  width: 154px;
+  height: 46px;
+  background: #CC9600;
+  border-radius: 15px;
+  border: none;
+  margin-left: 240px;
+}
+
+.san:hover{
+  background: #966e02;
+}
+/* -------------------------------register button--------------------------- */
+.san2{
+ width: 154px;
+  height: 46px;
+  background: #CC9600;
+  border-radius: 15px;
+  border: none;
+  margin-left: 240px;
+}
+
+.san2:hover{
+  background: #966e02;
+}
+
+/* ---------------------------------animations--------------------------- */
+@keyframes slideRight{
+  0%{
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes slideTop{
+  0%{
+      transform: translateY(100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes slideBottom{
+  0%{
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateY(0px);
+      opacity: 1;
+  }
+}
+
+@keyframes slideLeft{
+  0%{
+      transform: translateX(100px);
+      opacity: 0;
+  }
+  100%{
+      transform: translateX(0px);
+      opacity: 1;
+      
+  }
+}
+

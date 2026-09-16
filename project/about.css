@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: white;
+ }
+
+ .about_banner img{
+    margin-left: -18px;
+ }
+
+ .about_us h2{
+    color: #CC9600;
+ }
+ .about_us p{
+    font-size: 20px;
+ }
+ .branches h2{
+    color: #CC9600;
+ }
+
+ .branch_width{
+    width: 20%;
+    text-align: center;
+    margin-left: 150px;
+ }
+
+ .branch_head{
+    color: #CC9600;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0;
+ }
+
+ .comitment h2{
+    color: #CC9600;
+ }
+
+ .comitment p{
+    font-size: 20px;
+ }
