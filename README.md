@@ -415,7 +415,7 @@ http://localhost/project/
 
 # 📌 Project Flow Summary
 
-
+```text
              ┌──────────────────────┐
              │ Create Account / Reg │
              └──────────┬───────────┘
@@ -458,6 +458,7 @@ Poetry   Story  Detective  Horror  Sci-Fi  Novel
                         │
                         ▼
                   Order/Payment
+```
 
 
 ------------------------------------------------------------------------
