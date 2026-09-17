@@ -18,50 +18,32 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `project`
+-- Database: `book_store`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `log_in`
+-- Table structure for table `orders`
 --
 
-CREATE TABLE `log_in` (
+CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
-  `username` varchar(100) NOT NULL,
+  `receiver_name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `password` varchar(32) NOT NULL
+  `contact` varchar(100) NOT NULL,
+  `billing_address` varchar(255) NOT NULL,
+  `sending_address` varchar(255) NOT NULL,
+  `card_number` varchar(100) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `log_in`
+-- Dumping data for table `orders`
 --
 
-INSERT INTO `log_in` (`id`, `username`, `email`, `password`) VALUES
-(4, 'user@2005', 'user2005@gmail.com', '81dc9bdb52d04dc20036dbd8313ed055');
-
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `log_in`
---
-ALTER TABLE `log_in`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`),
-  ADD UNIQUE KEY `email` (`email`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `log_in`
---
-ALTER TABLE `log_in`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+INSERT INTO `orders` (`id`, `receiver_name`, `email`, `contact`, `billing_address`, `sending_address`, `card_number`, `created_at`) VALUES
+(0, 'sdbshgdh', 'abs@gmail.com', '1238549671', 'sadaf,fafdaf,', 'sadaf,fafdaf,', '123412356712345', '2026-09-09 04:59:16');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
